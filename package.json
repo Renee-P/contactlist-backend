@@ -1,0 +1,30 @@
+{
+  "name": "contactlist",
+  "version": "1.0.0",
+  "description": "contact list back-end activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renee-P/contactlist-backend.git"
+  },
+  "author": "Renee Rosary H. Pintor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renee-P/contactlist-backend/issues"
+  },
+  "homepage": "https://github.com/Renee-P/contactlist-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
